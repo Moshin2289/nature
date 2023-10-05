@@ -1,0 +1,208 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+body {
+    background-image: url(pic.11.jpg);
+    background-size: cover;
+    color: black;
+
+}
+
+.main {
+    width: 400px;
+    margin: 150px auto 0px auto;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+
+
+
+}
+
+.register {
+
+    text-align: center;
+    background-color: rgba(126, 189, 244, 0.669);
+}
+
+.submit {
+
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #008175;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    font-weight: 40px;
+
+}
+
+ul a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.navbar ul a:hover {
+    border: 2px solid white;
+    background-color: black;
+}
+
+.all {
+    height: 700px;
+    background-color: aqua;
+    background-image: url(pic55.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+
+    justify-content: center;
+}
+
+.som {
+    background-color: #008175;
+    color: white;
+    height: 60px;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+/**
+.nav-logo{
+    height: 60px;
+
+}
+.logo{
+    background-image: url('nat.svg');
+}**/
+h1:hover {
+    color: black;
+    border: 2px solid black;
+    background-color: rgb(84, 238, 84);
+    border-radius: 2px;
+    text-decoration: none;
+
+}
+
+P {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+.end {
+    margin-bottom: 20PX;
+    background-color: rgb(84, 238, 84);
+    text-align: center;
+
+
+}
+
+.box {
+    height: 800px;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 1rem;
+    background-image: url(pic.11.jpg);
+
+}
+
+.box-image {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: #008175;
+}
+
+h2 {
+    background-color: #008175;
+}
+
+.drop-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+
+}
+
+.drop-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    background-color: #008175;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background-color: #008160;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #008160;
+    z-index: 1;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    display: block;
+}
+
+.submenu li a {
+    padding: 10px 15px;
+}
+
+.last {
+    height: 500px;
+    background-image: url(pic55.jpg);
+    background-size: cover;
+}
